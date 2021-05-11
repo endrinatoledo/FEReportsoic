@@ -1,0 +1,419 @@
+*{
+  box-sizing: border-box;
+}
+.styleBody{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  position: fixed; 
+  width: 100%;
+  height: 100%;
+  background-image:url(../img/fondo.png)
+
+}
+
+
+
+.contenedor{
+  width: 90%;
+  height: 80%; 
+  padding: 15px;
+  background-color: #ffffff;    
+  padding: 3px;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  /* display:inline-block; */
+}
+/* .contenedorSignUp{
+  width: 50%;
+  height: 50%; 
+  padding: 15px;
+  background-color: #ffffff;    
+  padding: 3px;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+} */
+
+
+.encabezadoS{
+  /* text-align: center; */
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight:bold;
+}
+.logo{
+  align-items: center;
+  content: url(../img/login.png);
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px; 
+  height: 90px;
+}
+
+
+.input-contenedor{
+  margin-bottom: 10px;    
+  margin-left: 5%;
+  margin-right: 5%;
+  border: none;
+} 
+
+.button{
+  width: 100%;
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 4px;
+  color: white;    
+  background: #999999; 
+  
+}
+
+
+p{
+    text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color: #aeaeae;
+  font-weight: 600;
+
+}
+
+.link:hover{
+  color: #464646;
+}  
+
+.btn-google{
+  width: 90%;
+  background: white;
+  text-align: center;
+/* border: none; */
+border-radius: 15px;
+margin-bottom: 15px;
+text-shadow: none;
+outline: none !important;
+}
+
+@media(min-width:768px) {
+  .contenedor{
+      margin: auto;
+      width: 28%;
+      height: 70%;
+      margin-top: 60px;
+  }    
+  .logos{
+    margin-top: 6%;
+  }
+  .encabezado{
+    /* text-align: center; */
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight:bold;
+    align-items: center;
+    margin-left: 20%;
+  }
+
+  .styleBodySign{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    background-image:url(../img/fondo.png);
+    overflow-y: scroll;
+  
+  }
+
+  .contenedorSignUp{
+    width: 50%;
+    height: 50%; 
+    padding: 15px;
+    background-color: #ffffff;    
+    padding: 3px;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  input[type="email"],
+  input[type="password"]{
+    font-size: 17px;
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #aeaeae;
+    border-radius: 15px;
+  }
+  .spaceInputPassword{
+    margin-left: 10%;
+    padding-right: 10%;
+    margin-top: -10px;
+  }
+  input::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+
+      .logo_febeca{
+        content: url(../img/FEBECA1_.png);
+        width: 70px; 
+        height: 60px;
+        margin-right: 10px;
+        margin-left: 15%;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      
+      .logo_beval{
+        content: url(../img/BEVAL1_.png);
+        width: 70px; 
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      .logo_sillaca{
+        content: url(../img/SILLACA1_.png);
+        width: 70px; 
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      .logo_cofersa{
+        content: url(../img/COFERSA_.png);
+        width: 70px; 
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      .logo_mundipartes{
+        content: url(../img/MUNDIPARTES1_.png);
+        width: 40px;
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      .logo_olo{
+        content: url(../img/OLO_.png);
+        width: 55px; 
+        height: 55px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }   
+
+      .logo_febecaSU{
+        content: url(../img/FEBECA1_.png);
+        width: 70px; 
+        height: 60px;
+        margin-left: 15%;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+
+      }
+      .logo_bevalSU{
+        content: url(../img/BEVAL1_.png);
+        width: 70px; 
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      .logo_sillacaSU{
+        content: url(../img/SILLACA1_.png);
+        width: 70px; 
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      .logo_cofersaSU{
+        content: url(../img/COFERSA_.png);
+        width: 70px; 
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      .logo_mundipartesSU{
+        content: url(../img/MUNDIPARTES1_.png);
+        width: 40px;
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      .logo_oloSU{
+        content: url(../img/OLO_.png);
+        width: 55px; 
+        height: 55px;
+        margin-right: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+      } 
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 991px) {
+
+  .encabezado{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight:bold;
+    align-items: center;
+    margin-left: 1%;
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+
+
+      .styleBodySign{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        position: fixed; 
+        width: 100%;
+        height: 100%;
+        background-image:url(../img/fondoChico.png);
+        overflow-y: scroll;      
+      }
+
+      .logos{
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+
+      .contenedorSignUp{
+        width: 50%;
+        height: 50%; 
+        padding: 15px;
+        background-color: #ffffff;    
+        padding: 3px;
+        border-radius: 15px;
+        text-align: center;
+        margin: auto;
+        margin-top: 8%;
+      }
+      .encabezado{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight:bold;
+        align-items: center;
+      }
+
+      input[type="email"],
+      input[type="password"]{
+        font-size: 17px;
+        width: 100%;
+        padding: 4px;
+        border: 1px solid #aeaeae;
+        border-radius: 15px;
+      }
+
+      .spaceInputPassword{
+        margin-left: 10%;
+        padding-right: 10%;
+        margin-top: -10px;
+      }
+
+      input::-webkit-input-placeholder {
+        font-size: 15px;
+      }
+      .logo_febeca{
+        content: url(../img/FEBECA1_.png);
+        width: 70px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 10%;
+        margin-top:5%;
+      }  
+      .logo_febecaSU{
+        content: url(../img/FEBECA1_.png);
+        width: 70px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 30px;
+        margin-top:5%;
+      } 
+      .logo_beval{
+        content: url(../img/BEVAL1_.png);
+        width: 70px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      }
+      .logo_bevalSU{
+        content: url(../img/BEVAL1_.png);
+        width: 70px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      }
+      .logo_sillaca{
+        content: url(../img/SILLACA1_.png);
+        width: 80px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      }
+      .logo_sillacaSU{
+        content: url(../img/SILLACA1_.png);
+        width: 80px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      }
+      .logo_cofersa{
+        content: url(../img/COFERSA_.png);
+        width: 60px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      }
+      .logo_cofersaSU{
+        content: url(../img/COFERSA_.png);
+        width: 60px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      }
+      .logo_mundipartes{
+        content: url(../img/MUNDIPARTES1_.png);
+        width: 35px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      }
+      .logo_mundipartesSU{
+        content: url(../img/MUNDIPARTES1_.png);
+        width: 35px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      }
+      .logo_olo{
+        content: url(../img/OLO_.png);
+        width: 55px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      } 
+      .logo_oloSU{
+        content: url(../img/OLO_.png);
+        width: 55px; 
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 5%;
+      } 
+  }
+

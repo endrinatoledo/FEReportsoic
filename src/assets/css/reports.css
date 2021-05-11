@@ -1,0 +1,112 @@
+
+
+.TitleReportBox{
+  width: 95%;
+  height: 55%;
+  white-space: normal;
+  font-size: 16px;
+  margin:auto;
+}
+
+.TitleReportBox:hover{
+  width: 95%;
+  height: 55%;
+  white-space: normal;
+  font-size: 16px;
+  margin:auto;
+  color: #0084ff;
+}
+
+@media screen and (max-width: 769px) {
+
+  .reportBox{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+  }
+  @media(min-width:768px) {
+
+    .reportBox{
+      width: 20%;
+      margin-bottom: 10px;
+      margin-left: 2%;
+      margin-right: 2%;
+      border-radius: 15px;      
+  }
+  .reportBox:active{
+
+    border: 1px solid #8d8d8d;    
+    border-radius: 15px; 
+}
+
+}
+
+#contenedor {
+  overflow: hidden;
+  width: 230px;
+  height: 230px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.item{
+
+border: groove;
+height: 70px;
+width: 100%;
+border-radius: 15px;
+display: inline-table;
+margin-top: 15px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.textItem{
+display: table-cell;
+vertical-align: middle;
+display: -webkit-box;
+max-height: 70px;
+line-height: 20px;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;
+text-overflow: ellipsis;
+padding-top: 10px;
+}
+
+.divider{
+color: #AFAFAF;
+background: #AFAFAF;
+height: 1;
+margin-top: 5px;
+margin-bottom: -5px;
+}
+
+.spin{
+  margin-left: 50%;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px){
+  .changePassword{
+    margin-left: 19%;
+  }
+}
+
+@media screen and (min-width: 1024px)  and (max-width: 1319px){
+  .changePassword{
+    margin-left: 19%;
+  }
+}
+
+@media screen and (min-width: 1320px){
+  .changePassword{
+    margin-left: 29%;
+  }
+}
+
+
+

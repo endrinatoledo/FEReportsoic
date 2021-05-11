@@ -1,0 +1,10 @@
+{
+    "apps" : [
+      {
+        "name"      : "Website Reportes OIC- FE",
+        "script"    : "npx",
+        "interpreter": "none",
+        "args": "npm run server"
+      }
+    ]
+  }
